@@ -1,31 +1,44 @@
+# IEEE Web Resources – Recruitment Assessment
 
-# React + Vite
+This project was built as part of the IEEE Web Resources recruitment assessment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It includes:
+- Task 1: Responsive Chapter Team Card (Frontend)
+- Task 2: Membership API (Backend)
+- Task 3: Debugging Challenge
 
-Currently, two official plugins are available:
+## Task 1: Frontend – Chapter Team Card
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built using:
+- React
+- Tailwind CSS
 
-## React Compiler
+Features:
+- Clean and responsive card layout
+- Mobile-friendly using Flexbox/Grid
+- Hover effect revealing short description
+- Theme inspired by IEEE website styling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-## UI Preview
-
-### Normal View
+# UI Preview
+Normal View
 ![Normal View](./Screenshots/UI_screenshot.png)
-
-### Hover View
+ Hover View
 ![Hover View](./Screenshots/Hover_effect.png)
 
-**TASK 3:**
+
+## Task 2: Backend – Membership API
+
+Built using:
+- Node.js
+- Express.js
+
+Features:
+- GET route: `/user/:id`
+- Returns JSON response
+- Proper error handling (404 & 500)
+
+
+## TASK 3:
 
 PART A:
 **Corrected code:**
